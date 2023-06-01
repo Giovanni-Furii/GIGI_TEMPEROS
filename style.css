@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 999;
+    border-bottom: 2px solid #ddc120;
+  }
+  
+  #menu {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    
+  }
+  
+  #menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #menu li {
+    right: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+  }
+  
+  #menu li a {
+    font-family: Jazz LET, fantasy;
+    font-size: 25px;
+    text-decoration:none;
+    color: #c0ab59;
+  }
+  
+ #menu li a:hover{
+  color: grey;
+  
+  }
+  
+  ul li img{
+    position: absolute;
+    left: 0;
+    margin-top: -37px;
+    height: 100px;
+    width: 400px;
+  }
+
+  .section {
+    margin-top: 100px; 
+    padding: 20px;
+  }
+
+h3{
+  margin-left: 30px;
+  color: rgb(218, 214, 12);
+  }
+
+
+
+.temperos{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin-top: 20px;
+  margin-left: 50px;
+  border: 1px solid rgb(230, 165, 24);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 0px;
+  background-color:#F2E5D4;
+  
+}
+
+.legenda{
+  margin-left: 50px;
+  margin-top: -22px;
+  height: 50px;
+  border:1px solid rgb(204,173, 105);
+  border-top: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+}
+
+.imagem{
+  display: inline-block;
+}
+
+.tempero-container{
+  display: none;
+  background-color: #000;
+}
+
+.tempero-container2{
+  display: none;
+  background-color: #000;
+}
+
+.ervas-container{
+  display: none;
+}
+
+.capsulas-container{
+  display: none;
+}
+
+.capsulas-container2{
+  display: none;
+}
+
+a{
+  margin-left: 50px;
+  margin-right: -115px;
+  padding:25px
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  margin-top: 13px;
+  width: 1349px;
+  height: 2000px;
+  background-color: #1E2D5E;
+  
+}
+#logo-home{
+  display: inline-block;
+  margin-top: -1620px;
+  width: 400px;
+  height: 300px;
+}
+
+.descricao{
+  display: inline-block;
+  margin-top: -1558px;
+  margin-left: 20px;
+  margin-right: 10px;
+  color: #74d62e;
+  color: rgb(212, 193, 24);
+  font-size: 25px;
+  flex: 1;
+  text-align: center;
+  font-family: Jazz LET, fantasy;
+}
+
+#insta{
+  display: flex;
+  height: 50px;
+  width:50px;
+  background-color: rgb(204,173, 105);
+  margin-left: 1050px;
+  margin-top: -40px;
+  border-radius: 15px;
+  border-style: outset;
+  border-color: rgb(204,173, 105);
+}
+
+#wpp{
+  display: flex;
+  height: 50px;
+  width:50px;
+  background-color: rgb(204,173, 105);
+  margin-left: 1135px;
+  margin-top: -41px;
+  border-style: outset;
+  border-color: rgb(204,173, 105);
+}
+
+#pergaminho{
+  display: flex;
+  height: 50px;
+  width:50px;
+  background-color: rgb(204,173, 105);
+  margin-left: 1228px;
+  margin-top: -40px;
+  border-style: outset;
+  border-color: rgb(204,173, 105);
+}
+
+#insta:hover{
+  background-color: grey;
+  border: grey;
+  cursor: pointer;
+}
+
+#wpp:hover{
+  background-color: grey;
+  border: grey;
+  cursor: pointer;
+}
+
+#pergaminho:hover{
+  background-color: grey;
+  border: grey;
+  cursor:pointer;
+}
