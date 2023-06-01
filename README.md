@@ -1,1 +1,1 @@
-Link : http://gigi_temperos.com/
+http://gigi_temperos.com/
