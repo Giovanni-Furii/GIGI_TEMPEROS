@@ -1,1 +1,1 @@
-[ACESSE O SITE AQUI](http://gigi_temperos.com/)
+[ACESSE O SITE AQUI](https://giovanni-furii.github.io/GIGI_TEMPEROS/)
